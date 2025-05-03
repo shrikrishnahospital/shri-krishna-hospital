@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #00695c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    height: 80px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav ul {
+    list-style: none;
+    background: #004d40;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #e0f2f1;
+    padding: 40px;
+    text-align: center;
+}
+
+.info, .contact {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.appointment {
+    padding: 20px;
+    background: #ffffff;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.appointment form {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.appointment input,
+.appointment select,
+.appointment button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment button {
+    background-color: #00695c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment button:hover {
+    background-color: #004d40;
+}
